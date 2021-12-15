@@ -7,7 +7,14 @@ div.grid {
     background: red;
     padding: 5px;    
 }
-
+/*#moveMe con el último apartado hecho*/
 #moveMe {
     background:blue;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
 }
+
+/*
+    Al utilizar la posición relative lo que ocurre es que dicho bloque se mueve de forma independiente al resto de los bloques, por lo que nos permite hacer que este bloque se posicione encima de otros bloques asi tapandolos.
+*/
